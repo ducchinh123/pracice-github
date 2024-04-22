@@ -1,6 +1,7 @@
 <?php
 
 require_once './config/db.php';
+// master đã sửa ở đây
 function get_user_by_id($idUser, $name)
 {
     global $connect;
